@@ -1,0 +1,20 @@
+# Java build artifacts
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle
+target/
+build/
+
+# IDE settings
+.idea/
+*.iml
+*.classpath
+*.project
+
+# OS-specific
+.DS_Store
+Thumbs.db
