@@ -68,7 +68,7 @@ QA_Automated_Testing_Suite/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/QA_Automated_Testing_Suite.git
+   git clone https://github.com/gabrielf159/QA_Automated_Testing_Suite.git
    cd QA_Automated_Testing_Suite
    ```
 
