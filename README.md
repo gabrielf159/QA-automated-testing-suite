@@ -73,15 +73,12 @@ QA_Automated_Testing_Suite/
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/gabrielf159/QA_Automated_Testing_Suite.git
-   cd QA_Automated_Testing_Suite
    ```
 
 2. **Run tests using Maven:**
    ```bash
    mvn clean test
    ```
-
-3. **Open TestNG reports** and view screenshots in the `/screenshots` folder.
 
 ---
 
