@@ -31,14 +31,14 @@ This project is a simple functional test automation framework for both web UI an
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
-| Test Scenario | Screenshot |
-|---------------|------------|
 | Terminal Test Results |
+
 <img width="1600" height="328" alt="Terminal results" src="https://github.com/user-attachments/assets/0c429797-1dba-49bb-b517-8583cdcfb3dc" />
 
 | Text File Results |
+
 <img width="977" height="177" alt="Textfile results" src="https://github.com/user-attachments/assets/272fac57-bce0-42f3-81ec-458d271ef435" />
 
 
