@@ -1,71 +1,93 @@
 # Automated Web Testing Suite
 
-This is a simple automated testing framework built for UI and API validation using modern QA tools and practices. It demonstrates proficiency in test automation with Selenium WebDriver and TestNG, and includes REST API testing via Postman collections.
+This project is a simple functional test automation framework for both web UI and API testing, built using Java, Selenium WebDriver, TestNG, and Postman.
 
 ---
 
 ## Tools & Technologies
 
-- **Java** – Core test logic and framework
-- **Selenium WebDriver** – UI automation for web applications
-- **TestNG** – Test management and reporting
-- **Postman** – REST API testing with collections
-- **Maven** – Build and dependency management
-- **ChromeDriver** – WebDriver interface for Google Chrome
+- **Java** – Core programming language for test logic  
+- **Selenium WebDriver** – Browser automation for UI testing  
+- **TestNG** – Test execution and reporting  
+- **Postman** – REST API test execution  
+- **Maven** – Project and dependency management  
+- **ChromeDriver** – Chrome interface for Selenium WebDriver  
 
 ---
 
 ## Features
 
-- **UI Tests**
-  - Login functionality
-  - Product search validation
-  - Shopping cart and checkout process
-- **API Tests**
-  - Sample REST endpoint validation using Postman
-- **Reporting**
-  - TestNG logs and assertions
-  - Screenshot capture for test result evidence
+### UI Test Coverage:
+- Login functionality
+- Product search
+- Cart and checkout flow
+
+### API Validation:
+- Sample API tests using Postman collections
+
+### Test Reporting:
+- TestNG logs and assertion validation
+- Screenshot evidence for UI test results
 
 ---
 
-## Test Screenshots
+## 🖼️ Screenshots
 
-| Test Case(s)       | Screenshot |
-| Login, Search, Checkout | (C:screenshots\Textfile.results.png)
-
+| Test Scenario | Screenshot |
+|---------------|------------|
+| Terminal Test Results | `screenshots\Terminal.results.png` |
+| Text File Results | `screenshots\Textfile.results.png` |
 
 ---
 
 ## Project Structure
 
+```
 QA_Automated_Testing_Suite/
 ├── postman/
-│ └── SampleAPITests.postman_collection.json
+│   └── SampleAPITests.postman_collection.json
 ├── screenshots/
-│ ├── Terminal.results.png
-│ ├── Textfile.results.png
+│   ├── Terminal.results.png
+│   └── Textfile.results.png
 ├── src/
-│ ├── main/java/com/example/pages/
-│ │ ├── LoginPage.java
-│ │ ├── SearchPage.java
-│ │ └── CheckoutPage.java
-│ └── test/java/com/example/tests/
-│ ├── LoginTest.java
-│ ├── SearchTest.java
-│ └── CheckoutTest.java
+│   ├── main/java/com/example/pages/
+│   │   ├── LoginPage.java
+│   │   ├── SearchPage.java
+│   │   └── CheckoutPage.java
+│   └── test/java/com/example/tests/
+│       ├── LoginTest.java
+│       ├── SearchTest.java
+│       └── CheckoutTest.java
 ├── pom.xml
 └── README.md
+```
+
+---
 
 ## Setup Instructions
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/QA_Automated_Testing_Suite.git
+   cd QA_Automated_Testing_Suite
+   ```
 
-Run tests using:
-mvn clean test
+2. **Run tests using Maven:**
+   ```bash
+   mvn clean test
+   ```
 
-Author
+3. **Open TestNG reports** and view screenshots in the `/screenshots` folder.
 
-Gabriel Flores
+---
+
+## Author
+
+**Gabriel Flores**
+
+---
+
+## Notes
+
+- Ensure ChromeDriver version matches your installed Chrome browser.  
+- Postman collection is located in `/postman`. You can import and run it directly in Postman.
